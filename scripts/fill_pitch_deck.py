@@ -40,7 +40,7 @@ SLIDE_CONTENT = [
             'Problem Statement Title:': 'Problem Statement Title:\nKropScan NER — Hybrid Edge-AI for Marginal NE Farmers',
             'Theme:': 'Theme:\n#2 Agriculture / 2.5 AI-Based Crop Recommendation & Advisory',
             'Team Name:': 'Team Name:\n[Your Team Name]',
-            'Team Members': 'Team Members:\nGarvit Surana, [Teammate Name]',
+            'Team Members': 'Team Members:\nGarvit Surana (Full-stack + AI), Mehul Jain (Frontend Designer)',
             'college Name:': 'College Name:\n[Your College Name]',
         }
     },

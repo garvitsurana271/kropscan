@@ -34,17 +34,18 @@ import {
     arrayRemove
 } from 'firebase/firestore';
 
-// Firebase web config. Web API keys are designed to be public-safe — they identify
-// the project, real security comes from Firestore rules. Inline config keeps the
-// demo working out-of-the-box without env-var setup.
+// Firebase web config — read from .env.local at build time. Web API keys are
+// designed to be public-safe (they identify the project; security comes from
+// Firestore rules), but env-var injection keeps GitHub's secret scanner happy
+// and lets you swap projects without code changes.
 const firebaseConfig = {
-    apiKey: "AIzaSyDgg-CREwoxHU30GaZNZ3DlzFJT9npO4Ng",
-    authDomain: "kropscan-528c9.firebaseapp.com",
-    projectId: "kropscan-528c9",
-    storageBucket: "kropscan-528c9.firebasestorage.app",
-    messagingSenderId: "221291861950",
-    appId: "1:221291861950:web:78bd04d660356058460bef",
-    measurementId: "G-KZS3E7MNN6"
+    apiKey:            import.meta.env.VITE_FIREBASE_API_KEY            || "",
+    authDomain:        import.meta.env.VITE_FIREBASE_AUTH_DOMAIN        || "",
+    projectId:         import.meta.env.VITE_FIREBASE_PROJECT_ID         || "",
+    storageBucket:     import.meta.env.VITE_FIREBASE_STORAGE_BUCKET     || "",
+    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "",
+    appId:             import.meta.env.VITE_FIREBASE_APP_ID             || "",
+    measurementId:     import.meta.env.VITE_FIREBASE_MEASUREMENT_ID     || ""
 };
 
 export interface Post {

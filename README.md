@@ -154,12 +154,10 @@ For the full technical deep-dive, see [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE
 
 | Name | Role |
 |---|---|
-| Garvit Surana | Full-stack + AI integration |
-| [Teammate Name] | [Role] |
+| **Garvit Surana** | Full-stack + AI integration |
+| **Mehul Jain** | Frontend Designer |
 
-College: [Your College Name]
-
-Contact: **dev@409.ai**
+Contact: **garvitsurana10@gmail.com**
 
 ## 📜 License
 

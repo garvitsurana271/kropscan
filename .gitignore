@@ -72,9 +72,12 @@ hackathon_problem_statememt.pdf
 .playwright-mcp/
 smoketest-*.png
 
-# Pitch deck reference materials (not part of app deliverable)
+# Pitch deck reference + the filled-in pitch deck (do NOT ship publicly —
+# competing teams could crib content)
 pitch_template.pdf
 pitch_template.pptx
+docs/KropScan_NER_Pitch.pptx
+*.pptx
 
 # Internal strategy / coaching docs — do NOT ship publicly
 _internal/
