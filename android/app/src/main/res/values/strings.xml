@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">KropScan</string>
+    <string name="title_activity_main">KropScan</string>
+    <string name="package_name">com.kropscan.app</string>
+    <string name="custom_url_scheme">com.kropscan.app</string>
+</resources>

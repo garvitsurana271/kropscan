@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #3D6F39;
+    --primary-light: #4A8545;
+    --secondary: #EAB308;
+    --background-light: #F8FAF7;
+    --surface-light: #FFFFFF;
+    --text-primary: #1A1C19;
+    --text-secondary: #71717A;
+
+    /* Dark Mode Tokens */
+    --background-dark: #0f110f;
+    --surface-dark: #181a18;
+  }
+
+  body {
+    @apply bg-background-light text-text-primary antialiased font-sans transition-colors duration-300;
+  }
+
+  .dark body {
+    @apply bg-background-dark text-white;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-extrabold tracking-tight;
+  }
+}
+
+@layer components {
+
+  /* Glassmorphism */
+  .glass {
+    @apply bg-white/70 backdrop-blur-lg border border-white/20 shadow-xl;
+  }
+
+  .dark .glass {
+    @apply bg-surface-dark/70 border-white/5;
+  }
+
+  /* Buttons */
+  .btn-primary {
+    @apply px-6 py-3 bg-primary text-white rounded-xl font-bold transition-all duration-500 transform hover:scale-105 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/40 active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-white text-gray-800 border border-gray-200 rounded-xl font-bold transition-all duration-500 hover:bg-gray-50 hover:-translate-y-1 hover:shadow-lg hover:border-gray-300 active:scale-95 dark:bg-surface-dark dark:text-white dark:border-gray-700 dark:hover:bg-gray-800 dark:hover:shadow-green-900/20;
+  }
+}
+
+/* Animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full dark:bg-gray-700;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400 dark:bg-gray-600;
+}

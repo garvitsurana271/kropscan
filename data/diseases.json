@@ -1,0 +1,734 @@
+[
+  {
+    "id": 0,
+    "name": "Apple Scab",
+    "scientificName": "Venturia inaequalis",
+    "crop": "Apple",
+    "treatment": {
+      "chemical": ["Captan", "Mancozeb", "Myclobutanil"],
+      "organic": ["Sulfur sprays", "Neem oil", "Baking soda solution"]
+    },
+    "prevention": ["Prune trees to improve air circulation", "Remove fallen leaves in autumn", "Plant resistant varieties"],
+    "cost_per_acre_inr": 1200
+  },
+  {
+    "id": 1,
+    "name": "Apple Black Rot",
+    "scientificName": "Botryosphaeria obtusa",
+    "crop": "Apple",
+    "treatment": {
+      "chemical": ["Thiophanate-methyl", "Captan"],
+      "organic": ["Copper fungicide", "Lime sulfur"]
+    },
+    "prevention": ["Remove mummified fruit", "Prune out dead wood", "Avoid wounding trees"],
+    "cost_per_acre_inr": 1500
+  },
+  {
+    "id": 2,
+    "name": "Apple Cedar Rust",
+    "scientificName": "Gymnosporangium juniperi-virginianae",
+    "crop": "Apple",
+    "treatment": {
+      "chemical": ["Myclobutanil", "Propiconazole"],
+      "organic": ["Sulfur", "Copper soap"]
+    },
+    "prevention": ["Remove nearby juniper trees", "Choose resistant cultivars"],
+    "cost_per_acre_inr": 1300
+  },
+  {
+    "id": 3,
+    "name": "Apple Healthy",
+    "scientificName": "Malus domestica",
+    "crop": "Apple",
+    "treatment": {
+      "chemical": [],
+      "organic": []
+    },
+    "prevention": ["Maintain regular watering and fertilization schedule"],
+    "cost_per_acre_inr": 0
+  },
+  {
+    "id": 4,
+    "name": "Blueberry Healthy",
+    "scientificName": "Vaccinium sect. Cyanococcus",
+    "crop": "Blueberry",
+    "treatment": {
+      "chemical": [],
+      "organic": []
+    },
+    "prevention": ["Mulch to retain moisture", "Test soil pH regularly"],
+    "cost_per_acre_inr": 0
+  },
+  {
+    "id": 5,
+    "name": "Cherry Powdery Mildew",
+    "scientificName": "Podosphaera clandestina",
+    "crop": "Cherry",
+    "treatment": {
+      "chemical": ["Myclobutanil", "Fenbuconazole"],
+      "organic": ["Horticultural oil", "Sulfur", "Potassium bicarbonate"]
+    },
+    "prevention": ["Prune needed for airflow", "Avoid overhead irrigation"],
+    "cost_per_acre_inr": 1100
+  },
+  {
+    "id": 6,
+    "name": "Cherry Healthy",
+    "scientificName": "Prunus avium",
+    "crop": "Cherry",
+    "treatment": {
+      "chemical": [],
+      "organic": []
+    },
+    "prevention": ["Timely harvesting", "Bird netting"],
+    "cost_per_acre_inr": 0
+  },
+  {
+    "id": 7,
+    "name": "Corn Cercospora Leaf Spot",
+    "scientificName": "Cercospora zeae-maydis",
+    "crop": "Corn (Maize)",
+    "treatment": {
+      "chemical": ["Azoxystrobin", "Propiconazole"],
+      "organic": ["Neem oil", "Copper fungicide"]
+    },
+    "prevention": ["Crop rotation", "Tillage to bury residue", "Resistant hybrids"],
+    "cost_per_acre_inr": 900
+  },
+  {
+    "id": 8,
+    "name": "Corn Common Rust",
+    "scientificName": "Puccinia sorghi",
+    "crop": "Corn (Maize)",
+    "treatment": {
+      "chemical": ["Pyraclostrobin", "Mancozeb"],
+      "organic": ["Sulfur dust", "Bacillus subtilis"]
+    },
+    "prevention": ["Plant early", "Use resistant varieties"],
+    "cost_per_acre_inr": 850
+  },
+  {
+    "id": 9,
+    "name": "Corn Northern Leaf Blight",
+    "scientificName": "Exserohilum turcicum",
+    "crop": "Corn (Maize)",
+    "treatment": {
+      "chemical": ["Chlorothalonil", "Propiconazole"],
+      "organic": ["Trichoderma harzianum", "Copper spray"]
+    },
+    "prevention": ["Crop rotation with non-hosts", "Resistant varieties"],
+    "cost_per_acre_inr": 1000
+  },
+  {
+    "id": 10,
+    "name": "Corn Healthy",
+    "scientificName": "Zea mays",
+    "crop": "Corn (Maize)",
+    "treatment": {
+      "chemical": [],
+      "organic": []
+    },
+    "prevention": ["Regular monitoring for pests"],
+    "cost_per_acre_inr": 0
+  },
+  {
+    "id": 11,
+    "name": "Grape Black Rot",
+    "scientificName": "Guignardia bidwellii",
+    "crop": "Grape",
+    "treatment": {
+      "chemical": ["Mancozeb", "Ziram", "Captan"],
+      "organic": ["Copper fungicide", "Lime sulfur"]
+    },
+    "prevention": ["Remove mummified berries", "Canopy management for airflow"],
+    "cost_per_acre_inr": 1600
+  },
+  {
+    "id": 12,
+    "name": "Grape Black Measles (Esca)",
+    "scientificName": "Phaeomoniella chlamydospora",
+    "crop": "Grape",
+    "treatment": {
+      "chemical": ["Sodium arsenite (Restricted)", "Phosphonates"],
+      "organic": ["Wound protection", "Remedial surgery of vine"]
+    },
+    "prevention": ["Avoid pruning wounds during rain", "Sterilize pruning tools"],
+    "cost_per_acre_inr": 2000
+  },
+  {
+    "id": 13,
+    "name": "Grape Leaf Blight",
+    "scientificName": "Pseudocercospora vitis",
+    "crop": "Grape",
+    "treatment": {
+      "chemical": ["Mancozeb", "Chlorothalonil"],
+      "organic": ["Copper based fungicide"]
+    },
+    "prevention": ["Remove infected leaves", "Weed control"],
+    "cost_per_acre_inr": 1400
+  },
+  {
+    "id": 14,
+    "name": "Grape Healthy",
+    "scientificName": "Vitis vinifera",
+    "crop": "Grape",
+    "treatment": {
+      "chemical": [],
+      "organic": []
+    },
+    "prevention": ["Regular pruning", "Balanced nutrition"],
+    "cost_per_acre_inr": 0
+  },
+  {
+    "id": 15,
+    "name": "Orange Haunglongbing (Citrus Greening)",
+    "scientificName": "Candidatus Liberibacter asiaticus",
+    "crop": "Orange",
+    "treatment": {
+      "chemical": ["No cure - Vector control only (Imidacloprid)"],
+      "organic": ["Kaolin clay spray", "Essential oils (repellent)"]
+    },
+    "prevention": ["Use disease-free nursery stock", "Control psyllid population", "Remove infected trees"],
+    "cost_per_acre_inr": 2500
+  },
+  {
+    "id": 16,
+    "name": "Peach Bacterial Spot",
+    "scientificName": "Xanthomonas campestris pv. pruni",
+    "crop": "Peach",
+    "treatment": {
+      "chemical": ["Copper compounds", "Oxytetracycline"],
+      "organic": ["Copper spray (low rate)"]
+    },
+    "prevention": ["Resistant cultivars", "Maintain tree vigor", "Windbreaks"],
+    "cost_per_acre_inr": 1800
+  },
+  {
+    "id": 17,
+    "name": "Peach Healthy",
+    "scientificName": "Prunus persica",
+    "crop": "Peach",
+    "treatment": {
+      "chemical": [],
+      "organic": []
+    },
+    "prevention": ["Regular pruning"],
+    "cost_per_acre_inr": 0
+  },
+  {
+    "id": 18,
+    "name": "Pepper Bell Bacterial Spot",
+    "scientificName": "Xanthomonas campestris pv. vesicatoria",
+    "crop": "Pepper Bell",
+    "treatment": {
+      "chemical": ["Copper + Mancozeb"],
+      "organic": ["Copper hydroxide", "Agri-mycin"]
+    },
+    "prevention": ["Use treated seed", "Crop rotation", "Remove crop debris"],
+    "cost_per_acre_inr": 1100
+  },
+  {
+    "id": 19,
+    "name": "Pepper Bell Healthy",
+    "scientificName": "Capsicum annuum",
+    "crop": "Pepper Bell",
+    "treatment": {
+      "chemical": [],
+      "organic": []
+    },
+    "prevention": ["Mulching", "Stake plants"],
+    "cost_per_acre_inr": 0
+  },
+  {
+    "id": 20,
+    "name": "Potato Early Blight",
+    "scientificName": "Alternaria solani",
+    "crop": "Potato",
+    "treatment": {
+      "chemical": ["Chlorothalonil", "Mancozeb", "Azoxystrobin"],
+      "organic": ["Copper fungicide", "Serenade (Bacillus subtilis)"]
+    },
+    "prevention": ["Crop rotation", "Maintain plant vigor", "Drip irrigation"],
+    "cost_per_acre_inr": 1250
+  },
+  {
+    "id": 21,
+    "name": "Potato Late Blight",
+    "scientificName": "Phytophthora infestans",
+    "crop": "Potato",
+    "treatment": {
+      "chemical": ["Metalaxyl", "Cymoxanil", "Mancozeb"],
+      "organic": ["Copper sulfate", "Neem oil"]
+    },
+    "prevention": ["Use certified seed", "Destroy cull piles", "Monitor weather"],
+    "cost_per_acre_inr": 1800
+  },
+  {
+    "id": 22,
+    "name": "Potato Healthy",
+    "scientificName": "Solanum tuberosum",
+    "crop": "Potato",
+    "treatment": {
+      "chemical": [],
+      "organic": []
+    },
+    "prevention": ["Hilling", "Weed control"],
+    "cost_per_acre_inr": 0
+  },
+  {
+    "id": 23,
+    "name": "Raspberry Healthy",
+    "scientificName": "Rubus idaeus",
+    "crop": "Raspberry",
+    "treatment": {
+      "chemical": [],
+      "organic": []
+    },
+    "prevention": ["Pruning old canes", "Trellising"],
+    "cost_per_acre_inr": 0
+  },
+  {
+    "id": 24,
+    "name": "Soybean Healthy",
+    "scientificName": "Glycine max",
+    "crop": "Soybean",
+    "treatment": {
+      "chemical": [],
+      "organic": []
+    },
+    "prevention": ["Crop rotation", "Soil testing"],
+    "cost_per_acre_inr": 0
+  },
+  {
+    "id": 25,
+    "name": "Squash Powdery Mildew",
+    "scientificName": "Erysiphe cichoracearum",
+    "crop": "Squash",
+    "treatment": {
+      "chemical": ["Chlorothalonil", "Myclobutanil"],
+      "organic": ["Neem oil", "Potassium bicarbonate", "Milk spray (1:10)"]
+    },
+    "prevention": ["Resistant varieties", "Increase spacing"],
+    "cost_per_acre_inr": 800
+  },
+  {
+    "id": 26,
+    "name": "Strawberry Leaf Scorch",
+    "scientificName": "Diplocarpon earliana",
+    "crop": "Strawberry",
+    "treatment": {
+      "chemical": ["Captan", "Thiram"],
+      "organic": ["Copper fungicide", "Remove infected leaves"]
+    },
+    "prevention": ["Plant resistant varieties", "Renovate beds annually"],
+    "cost_per_acre_inr": 950
+  },
+  {
+    "id": 27,
+    "name": "Strawberry Healthy",
+    "scientificName": "Fragaria × ananassa",
+    "crop": "Strawberry",
+    "treatment": {
+      "chemical": [],
+      "organic": []
+    },
+    "prevention": ["Mulching with straw"],
+    "cost_per_acre_inr": 0
+  },
+  {
+    "id": 28,
+    "name": "Tomato Bacterial Spot",
+    "scientificName": "Xanthomonas campestris pv. vesicatoria",
+    "crop": "Tomato",
+    "treatment": {
+      "chemical": ["Copper + Mancozeb"],
+      "organic": ["Copper sprays", "Agri-mycin"]
+    },
+    "prevention": ["Use disease-free seed", "Cleaning stakes", "Rotation"],
+    "cost_per_acre_inr": 1100
+  },
+  {
+    "id": 29,
+    "name": "Tomato Early Blight",
+    "scientificName": "Alternaria solani",
+    "crop": "Tomato",
+    "treatment": {
+      "chemical": ["Mancozeb", "Chlorothalonil", "Azoxystrobin"],
+      "organic": ["Copper fungicide", "Bio-fungicides (Bacillus subtilis)"]
+    },
+    "prevention": ["Mulching", "Bottom watering", "Staking"],
+    "cost_per_acre_inr": 1000
+  },
+  {
+    "id": 30,
+    "name": "Tomato Late Blight",
+    "scientificName": "Phytophthora infestans",
+    "crop": "Tomato",
+    "treatment": {
+      "chemical": ["Chlorothalonil", "Mancozeb"],
+      "organic": ["Copper spray", "Preventative removal"]
+    },
+    "prevention": ["Avoid overhead irrigation", "Good air circulation"],
+    "cost_per_acre_inr": 1500
+  },
+  {
+    "id": 31,
+    "name": "Tomato Leaf Mold",
+    "scientificName": "Passalora fulva",
+    "crop": "Tomato",
+    "treatment": {
+      "chemical": ["Chlorothalonil", "Mancozeb"],
+      "organic": ["Copper fungicide", "Neem oil"]
+    },
+    "prevention": ["Reduce humidity (Greenhouse)", "Ventilation"],
+    "cost_per_acre_inr": 1200
+  },
+  {
+    "id": 32,
+    "name": "Tomato Septoria Leaf Spot",
+    "scientificName": "Septoria lycopersici",
+    "crop": "Tomato",
+    "treatment": {
+      "chemical": ["Chlorothalonil", "Mancozeb"],
+      "organic": ["Copper fungicide"]
+    },
+    "prevention": ["Crop rotation", "Remove lower leaves", "Mulch"],
+    "cost_per_acre_inr": 900
+  },
+  {
+    "id": 33,
+    "name": "Tomato Spider Mites",
+    "scientificName": "Tetranychus urticae",
+    "crop": "Tomato",
+    "treatment": {
+      "chemical": ["Abamectin", "Bifenthrin"],
+      "organic": ["Neem oil", "Insecticidal soap", "Predatory mites"]
+    },
+    "prevention": ["Avoid dusty conditions", "Regular scouting"],
+    "cost_per_acre_inr": 800
+  },
+  {
+    "id": 34,
+    "name": "Tomato Target Spot",
+    "scientificName": "Corynespora cassiicola",
+    "crop": "Tomato",
+    "treatment": {
+      "chemical": ["Chlorothalonil", "Mancozeb", "Azoxystrobin"],
+      "organic": ["Copper fungicide"]
+    },
+    "prevention": ["Air circulation", "Avoid overhead water"],
+    "cost_per_acre_inr": 1150
+  },
+  {
+    "id": 35,
+    "name": "Tomato Yellow Leaf Curl Virus",
+    "scientificName": "TYLCV",
+    "crop": "Tomato",
+    "treatment": {
+      "chemical": ["Control Whiteflies (Imidacloprid)"],
+      "organic": ["Neem oil", "Sticky traps", "Reflective mulches"]
+    },
+    "prevention": ["Resistant varieties", "Weed control", "Netting"],
+    "cost_per_acre_inr": 2000
+  },
+  {
+    "id": 36,
+    "name": "Tomato Mosaic Virus",
+    "scientificName": "ToMV",
+    "crop": "Tomato",
+    "treatment": {
+      "chemical": ["No cure"],
+      "organic": ["Remove infected plants"]
+    },
+    "prevention": ["Wash hands (tobacco users)", "Sanitize tools", "Resistant seeds"],
+    "cost_per_acre_inr": 0
+  },
+  {
+    "id": 37,
+    "name": "Tomato Healthy",
+    "scientificName": "Solanum lycopersicum",
+    "crop": "Tomato",
+    "treatment": {
+      "chemical": [],
+      "organic": []
+    },
+    "prevention": ["Regular care"],
+    "cost_per_acre_inr": 0
+  },
+  {
+    "id": 38,
+    "name": "Areca Nut Yellow Leaf Disease",
+    "scientificName": "Phytoplasma sp.",
+    "crop": "Areca Nut",
+    "treatment": {
+      "chemical": ["Tetracycline trunk injection (500 ppm)", "Bordeaux mixture 1% on crown"],
+      "organic": ["Neem cake 2 kg/palm", "Healthy soil — add compost + ZnSO4"]
+    },
+    "prevention": ["Remove severely infected palms", "Avoid waterlogging", "Plant disease-free seedlings"],
+    "cost_per_acre_inr": 2200
+  },
+  {
+    "id": 39,
+    "name": "Areca Nut Mahali (Fruit Rot)",
+    "scientificName": "Phytophthora arecae",
+    "crop": "Areca Nut",
+    "treatment": {
+      "chemical": ["Bordeaux mixture 1% spray pre-monsoon", "Metalaxyl 8% + Mancozeb 64% WP @ 2g/L"],
+      "organic": ["Trichoderma viride soil drench", "Improve canopy ventilation"]
+    },
+    "prevention": ["Spray BEFORE monsoon (not after onset)", "Remove fallen nuts", "Plant resistant varieties (South Kanara local)"],
+    "cost_per_acre_inr": 1800
+  },
+  {
+    "id": 40,
+    "name": "Areca Nut Healthy",
+    "scientificName": "Areca catechu",
+    "crop": "Areca Nut",
+    "treatment": { "chemical": [], "organic": [] },
+    "prevention": ["Mulch + 60kg N/100 palms/yr"],
+    "cost_per_acre_inr": 0
+  },
+  {
+    "id": 41,
+    "name": "Large Cardamom Chirke (Mosaic Virus)",
+    "scientificName": "Cardamom Mosaic Virus (CdMV)",
+    "crop": "Large Cardamom",
+    "treatment": {
+      "chemical": ["No chemical cure — virus", "Imidacloprid 0.005% to control aphid vector (Pentalonia)"],
+      "organic": ["Rogue infected clumps immediately", "Yellow sticky traps for aphids"]
+    },
+    "prevention": ["Plant virus-free suckers (RRL-Sikkim certified)", "Maintain shade trees (Alnus nepalensis)", "Inspect every 15 days"],
+    "cost_per_acre_inr": 3500
+  },
+  {
+    "id": 42,
+    "name": "Large Cardamom Foorkey",
+    "scientificName": "Foorkey Virus (Banana Bunchy Top related)",
+    "crop": "Large Cardamom",
+    "treatment": {
+      "chemical": ["No cure — uproot and burn", "Spray Dimethoate 0.05% for aphid vector"],
+      "organic": ["Replace with resistant cultivars: Sawney, Ramsey"]
+    },
+    "prevention": ["Avoid suckers from affected plantations", "Burn infected clumps — do not compost", "Keep nursery 1km from infected fields"],
+    "cost_per_acre_inr": 4000
+  },
+  {
+    "id": 43,
+    "name": "Large Cardamom Healthy",
+    "scientificName": "Amomum subulatum",
+    "crop": "Large Cardamom",
+    "treatment": { "chemical": [], "organic": [] },
+    "prevention": ["50% canopy cover", "Mulch with leaf litter pre-monsoon"],
+    "cost_per_acre_inr": 0
+  },
+  {
+    "id": 44,
+    "name": "Ginger Soft Rot",
+    "scientificName": "Pythium aphanidermatum",
+    "crop": "Ginger",
+    "treatment": {
+      "chemical": ["Metalaxyl-MZ 72 WP drench @ 2g/L", "Mancozeb 0.25% spray every 15 days"],
+      "organic": ["Trichoderma harzianum @ 4g/kg seed-rhizome", "Improve drainage; raised beds"]
+    },
+    "prevention": ["Treat seed rhizomes before sowing", "Avoid waterlogging — slope or raised beds", "Crop rotation 3-yr cycle (with legumes)"],
+    "cost_per_acre_inr": 2800
+  },
+  {
+    "id": 45,
+    "name": "Ginger Bacterial Wilt",
+    "scientificName": "Ralstonia solanacearum",
+    "crop": "Ginger",
+    "treatment": {
+      "chemical": ["Streptocycline 200 ppm drench (limited efficacy)", "Bleaching powder 15 kg/ha for soil"],
+      "organic": ["Pseudomonas fluorescens soil application", "Solarize soil pre-sowing for 30 days"]
+    },
+    "prevention": ["Source rhizomes from disease-free areas", "Never reuse soil from infected plots", "Avoid intercrop with tomato/brinjal/chilli"],
+    "cost_per_acre_inr": 3200
+  },
+  {
+    "id": 46,
+    "name": "Ginger Healthy",
+    "scientificName": "Zingiber officinale",
+    "crop": "Ginger",
+    "treatment": { "chemical": [], "organic": [] },
+    "prevention": ["FYM 25t/ha + neem cake 2t/ha"],
+    "cost_per_acre_inr": 0
+  },
+  {
+    "id": 47,
+    "name": "Turmeric Leaf Blotch",
+    "scientificName": "Taphrina maculans",
+    "crop": "Turmeric",
+    "treatment": {
+      "chemical": ["Mancozeb 0.25% spray every 15 days", "Carbendazim 0.1% during severe infection"],
+      "organic": ["Bordeaux mixture 1% pre-monsoon", "Pseudomonas fluorescens 2% spray"]
+    },
+    "prevention": ["Remove diseased leaves", "Ensure 30cm row spacing", "Avoid late evening irrigation"],
+    "cost_per_acre_inr": 1500
+  },
+  {
+    "id": 48,
+    "name": "Turmeric Rhizome Rot",
+    "scientificName": "Pythium graminicolum",
+    "crop": "Turmeric",
+    "treatment": {
+      "chemical": ["Metalaxyl + Mancozeb 0.2% drench", "Copper oxychloride 0.3% soil drench"],
+      "organic": ["Trichoderma viride seed treatment 4g/kg", "Raised beds + drainage channels"]
+    },
+    "prevention": ["Treat seed rhizome with Trichoderma before sowing", "3-year crop rotation", "Avoid waterlogged fields"],
+    "cost_per_acre_inr": 2400
+  },
+  {
+    "id": 49,
+    "name": "Turmeric Healthy",
+    "scientificName": "Curcuma longa",
+    "crop": "Turmeric",
+    "treatment": { "chemical": [], "organic": [] },
+    "prevention": ["Mulch with green leaves at sowing"],
+    "cost_per_acre_inr": 0
+  },
+  {
+    "id": 50,
+    "name": "Black Rice Blast",
+    "scientificName": "Magnaporthe oryzae",
+    "crop": "Black Rice (Chakhao)",
+    "treatment": {
+      "chemical": ["Tricyclazole 75 WP @ 0.6g/L spray", "Carbendazim 50 WP @ 1g/L"],
+      "organic": ["Pseudomonas fluorescens 0.2% spray at tillering", "Reduce N application; balanced K"]
+    },
+    "prevention": ["Avoid excess nitrogen (encourages blast)", "Treat seed with carbendazim @ 2g/kg", "Keep field weed-free"],
+    "cost_per_acre_inr": 2100
+  },
+  {
+    "id": 51,
+    "name": "Black Rice Healthy",
+    "scientificName": "Oryza sativa var. Chakhao",
+    "crop": "Black Rice (Chakhao)",
+    "treatment": { "chemical": [], "organic": [] },
+    "prevention": ["Maintain SRI spacing 25x25cm; alternate wet-dry irrigation"],
+    "cost_per_acre_inr": 0
+  },
+  {
+    "id": 52,
+    "name": "King Chilli Anthracnose (Fruit Rot)",
+    "scientificName": "Colletotrichum capsici",
+    "crop": "King Chilli (Bhut Jolokia)",
+    "treatment": {
+      "chemical": ["Mancozeb 0.25% + Carbendazim 0.1% combo spray", "Azoxystrobin 23% SC @ 1ml/L"],
+      "organic": ["Trichoderma + Pseudomonas mix soil drench", "Remove and burn infected fruits"]
+    },
+    "prevention": ["Treat seeds with Captan @ 3g/kg", "Avoid overhead irrigation", "Rotate with non-Solanaceae"],
+    "cost_per_acre_inr": 2600
+  },
+  {
+    "id": 53,
+    "name": "King Chilli Leaf Curl Virus",
+    "scientificName": "Chilli Leaf Curl Virus (ChLCV)",
+    "crop": "King Chilli (Bhut Jolokia)",
+    "treatment": {
+      "chemical": ["No cure — manage whitefly vector", "Imidacloprid 17.8 SL @ 0.3 ml/L weekly"],
+      "organic": ["Yellow sticky traps 20/acre", "Neem oil 5ml/L weekly"]
+    },
+    "prevention": ["Use virus-tolerant lines (NEH-Mesong selections)", "Remove infected plants in first week", "Border crop of maize as barrier"],
+    "cost_per_acre_inr": 3000
+  },
+  {
+    "id": 54,
+    "name": "Kiwi Bacterial Canker (Psa)",
+    "scientificName": "Pseudomonas syringae pv. actinidiae",
+    "crop": "Kiwi",
+    "treatment": {
+      "chemical": ["Copper hydroxide 0.3% spray (winter + bud-break)", "Streptomycin sulphate 200 ppm wound paint"],
+      "organic": ["Prune infected canes — sterilize tools with 70% alcohol", "Bordeaux paste on cuts"]
+    },
+    "prevention": ["Avoid pruning during wet weather", "Plant Hayward variety on well-drained slopes", "Disinfect grafting tools"],
+    "cost_per_acre_inr": 3500
+  },
+  {
+    "id": 55,
+    "name": "Kiwi Healthy",
+    "scientificName": "Actinidia deliciosa",
+    "crop": "Kiwi",
+    "treatment": { "chemical": [], "organic": [] },
+    "prevention": ["Pergola training; winter pruning Dec-Jan"],
+    "cost_per_acre_inr": 0
+  },
+  {
+    "id": 56,
+    "name": "Khasi Mandarin Greening (HLB)",
+    "scientificName": "Candidatus Liberibacter asiaticus",
+    "crop": "Khasi Mandarin",
+    "treatment": {
+      "chemical": ["No cure — control psyllid vector", "Imidacloprid 17.8 SL @ 0.3 ml/L on flush"],
+      "organic": ["Remove and burn infected trees", "Apply ZnSO4 + MnSO4 0.5% foliar"]
+    },
+    "prevention": ["Plant only certified disease-free saplings", "Citrus psyllid surveillance every 20 days", "Maintain 6m × 6m spacing"],
+    "cost_per_acre_inr": 4500
+  },
+  {
+    "id": 57,
+    "name": "Khasi Mandarin Citrus Canker",
+    "scientificName": "Xanthomonas citri",
+    "crop": "Khasi Mandarin",
+    "treatment": {
+      "chemical": ["Streptocycline 100 ppm + Copper oxychloride 0.3%", "Pre-monsoon Bordeaux mixture 1%"],
+      "organic": ["Prune infected twigs 30cm below symptom", "Burn pruned material"]
+    },
+    "prevention": ["Avoid leaf-miner damage (Phyllocnistis) entry points", "Wind-break trees on perimeter", "Sanitize tools between trees"],
+    "cost_per_acre_inr": 2800
+  },
+  {
+    "id": 58,
+    "name": "Tea Blister Blight",
+    "scientificName": "Exobasidium vexans",
+    "crop": "Tea",
+    "treatment": {
+      "chemical": ["Copper oxychloride 0.21% + Hexaconazole 0.005%", "Propiconazole 0.025% rotation"],
+      "organic": ["Bordeaux mixture 0.5% (every 7 days in monsoon)"]
+    },
+    "prevention": ["Round-the-bush pruning every 4 yrs", "Avoid plucking during heavy rain spells", "Shade tree canopy 60-70%"],
+    "cost_per_acre_inr": 3200
+  },
+  {
+    "id": 59,
+    "name": "Tea Red Rust",
+    "scientificName": "Cephaleuros parasiticus",
+    "crop": "Tea",
+    "treatment": {
+      "chemical": ["Copper sulphate 1% + lime 0.5% spray", "Carbendazim 0.05% — on stem & branches"],
+      "organic": ["Improve drainage; reduce shade", "Apply nitrogen to boost vigor"]
+    },
+    "prevention": ["Avoid waterlogging in low-lying patches", "Maintain pH 4.5-5.5 with sulphur amendment"],
+    "cost_per_acre_inr": 2200
+  },
+  {
+    "id": 60,
+    "name": "Tea Healthy",
+    "scientificName": "Camellia sinensis",
+    "crop": "Tea",
+    "treatment": { "chemical": [], "organic": [] },
+    "prevention": ["Plucking round 7-10 days; balanced NPK 4:1:1"],
+    "cost_per_acre_inr": 0
+  },
+  {
+    "id": 61,
+    "name": "Bamboo Blight",
+    "scientificName": "Sarocladium oryzae / Fusarium spp.",
+    "crop": "Bamboo",
+    "treatment": {
+      "chemical": ["Carbendazim 0.1% culm injection at base", "Copper oxychloride 0.3% soil drench"],
+      "organic": ["Remove dead culms; improve clump aeration", "Trichoderma harzianum at clump base"]
+    },
+    "prevention": ["Avoid mass-flowering clumps (gregarious senescence)", "Harvest mature culms regularly to prevent crowding"],
+    "cost_per_acre_inr": 1200
+  },
+  {
+    "id": 62,
+    "name": "Bamboo Healthy",
+    "scientificName": "Bambusoideae spp.",
+    "crop": "Bamboo",
+    "treatment": { "chemical": [], "organic": [] },
+    "prevention": ["Selective harvesting of 3-yr+ culms; avoid cutting all mature culms"],
+    "cost_per_acre_inr": 0
+  }
+]

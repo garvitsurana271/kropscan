@@ -1,0 +1,91 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+dist
+dist-ssr
+
+# Environment / secrets — NEVER commit
+.env
+.env.*
+*.local
+!*.example
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python (training scripts)
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Firebase deploy cache (NOT firebase.json — we want that committed)
+.firebase/
+.firebaserc
+
+# Native build outputs
+android/build/
+android/app/build/
+android/.gradle/
+android/local.properties
+android/capacitor-cordova-android-plugins/build/
+ios/App/build/
+ios/App/Pods/
+ios/App/DerivedData/
+*.iml
+
+# Large training datasets (do NOT ship in repo)
+scripts/dataset_merged/
+PlantDoc-Dataset-master/
+PlantVillage/
+dataset_merged/
+test_images/pv_small/
+
+# Auto-generated translation script artifacts
+scripts/translations_generated.ts
+
+# Claude Code / AI assistant configuration (internal tooling, not part of project)
+.claude/
+.mcp.json
+CLAUDE.md
+
+# Reference docs not intended to ship in code repo
+hackathon_problem_statememt.pdf
+
+# Playwright MCP test artifacts
+.playwright-mcp/
+smoketest-*.png
+
+# Pitch deck reference materials (not part of app deliverable)
+pitch_template.pdf
+pitch_template.pptx
+
+# Internal strategy / coaching docs — do NOT ship publicly
+_internal/
+
+# Trained model weights — proprietary IP, kept out of public repo
+# (App still works locally; users obtain models via separate channel)
+*.onnx
+*.onnx.data
+*.pth
+*.bin
+*.safetensors
+# Whitelist tiny placeholder files only
+!public/models/.gitkeep
+!public/models/README.md
