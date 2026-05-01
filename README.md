@@ -86,11 +86,9 @@ Plus three NE-region-specific layers on top:
 
 **Native** · Capacitor wrapper produces installable Android APK
 
-## 🌟 What's new for HackDays 4.0
+## 🌟 Special NER Features
 
-This submission specifically extends KropScan with NE-region-specific capabilities:
-
-- ➕ **23 new disease entries** for 10 NER specialty crops in [`data/diseases.json`](data/diseases.json) (id 38–62)
+- ➕ **23 NEW disease entries** for 10 NER specialty crops in [`data/diseases.json`](data/diseases.json) (id 38–62)
 - ➕ **NER crop morphology section** in the Gemma vision prompt ([`services/GeminiService.ts`](services/GeminiService.ts)) so the cloud model can identify crops the local ONNX never saw
 - 🌾 **Jhum Rotation Advisory page** ([`pages/JhumAdvisory.tsx`](pages/JhumAdvisory.tsx)) — calibrated to ICAR-NEH research with rule-based + AI hybrid output
 - 🏥 **ASHA Field Mode page** ([`pages/AshaReport.tsx`](pages/AshaReport.tsx)) with severity-weighted state heatmap
